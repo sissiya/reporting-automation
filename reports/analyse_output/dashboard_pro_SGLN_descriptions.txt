@@ -1,0 +1,4 @@
+Donut: Top category: Nutanix — 13043 incidents (45% of total).
+Bar chart: Top entity: Data_Center > DSI — 16661 incidents (57% of total).
+KPIs: Total tickets: 29,122. SLA conforme: 87%. Alertes critiques: 0.
+Table: Top categories overall: Nutanix 13043 (45% ), OS / Autres 8415 (29% ).

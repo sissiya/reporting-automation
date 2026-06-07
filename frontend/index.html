@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Extract & Export</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:16px}
+    .controls{margin-bottom:12px}
+    table{border-collapse:collapse;width:100%}
+    th,td{border:1px solid #ddd;padding:8px}
+    th{background:#123; color:#fff}
+    #notice{margin-top:8px;color:green}
+  </style>
+</head>
+<body>
+  <h2>Upload JSON and Export PPT</h2>
+  <div class="controls">
+    <input id="file" type="file" accept="application/json" />
+    <button id="upload">Upload</button>
+  </div>
+  <div>
+    <label>Entity: <select id="entity"><option value="__all__">All</option></select></label>
+    <button id="export">Export PPT (selected)</button>
+  </div>
+  <div id="notice"></div>
+  <h3>Data</h3>
+  <div style="max-height:400px;overflow:auto"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Extraction Application</title>
+    <link rel="stylesheet" href="/static/styles.css?v=2">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Upload JSON and Export PPT</h2>
+      <input id="file" type="file" accept="application/json" />
+      <button id="upload">Upload & Preview</button>
+      <div class="controls">
+        <label for="entitySelect">Entité (hold Ctrl / ⌘ to select multiple):</label>
+        <button id="selectAll" class="link">Select All</button>
+        <button id="clearSelection" class="link">Clear</button>
+      </div>
+      <select id="entitySelect" multiple size="8"></select>
+      <div class="actions">
+        <button id="previewSelected">Preview Selected</button>
+        <button id="export">Generate PPT</button>
+        <button id="showSummary">Show Summary</button>
+      </div>
+      <div id="message"></div>
+      <div id="table"></div>
+    </div>
+    <script src="/static/app.js?v=2"></script>
+  </body>
+</html>

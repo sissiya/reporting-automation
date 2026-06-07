@@ -1,0 +1,4 @@
+[
+  {"ID":"56790","Titre":"Alerte_Zabbix : GLPI Agent is not running","Entité":"Data_Center > CG Park","Statut":"Clos","Serveur":"RBACGP06"},
+  {"ID":"56789","Titre":"Memory Pages/sec high","Entité":"Data_Center > DSI","Statut":"Clos","Serveur":"RBANETWRIX01"}
+]

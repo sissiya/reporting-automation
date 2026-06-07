@@ -1,0 +1,43 @@
+body{font-family:Segoe UI, Arial, Helvetica, sans-serif, system-ui;background:#f8fafc;color:#111}
+.container{max-width:1000px;margin:24px auto;padding:18px;background:#ffffff;border-radius:8px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{border:1px solid #eee;padding:6px;text-align:left;font-size:13px}
+th{background:#fafafa}
+#message{margin-top:12px}
+
+/* PPT-style table used for entity preview */
+.ppt-table{width:100%;border-collapse:collapse;margin-top:14px;font-size:15px}
+.ppt-table{width:100%;border-collapse:collapse;margin-top:14px;font-size:15px;border:1px solid #d6e6f4}
+.ppt-table th,.ppt-table td{border-bottom:1px solid #e7eef6;padding:14px 12px;text-align:left}
+.ppt-table thead th{background:#2563eb;color:#ffffff;font-weight:700;padding:14px 12px;border-bottom:2px solid #1e40af}
+.ppt-table tbody tr:nth-child(odd){background:#fbfdff}
+.ppt-table tbody tr:nth-child(even){background:#ffffff}
+.ppt-table td:nth-child(2), .ppt-table td:nth-child(3){text-align:center}
+.ppt-table .category-cell{padding-left:18px}
+.ppt-entity-label{margin-bottom:10px;font-weight:700;color:#083a66}
+
+.controls{margin:8px 0}
+.controls .link{background:none;border:none;color:#0b6b63;margin-left:8px;cursor:pointer}
+.actions{margin:10px 0}
+#entitySelect{width:100%;margin:8px 0 12px 0;padding:6px}
+.container h2{color:#083a66}
+
+/* Entity card layout */
+.entity-card{background:#ffffff;border-radius:10px;padding:14px;margin:12px 0;box-shadow:0 6px 18px rgba(16,24,40,0.06);border:1px solid #e9f0ff}
+.entity-card .card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.entity-card .card-title{font-weight:700;color:#1e3a8a}
+.kpi-badges{display:flex;gap:8px;align-items:center}
+.kpi{background:#eef2ff;color:#1e3a8a;padding:6px 10px;border-radius:999px;font-weight:700;font-size:13px}
+.kpi.small{background:#f1f5f9;color:#2563eb;padding:4px 8px;font-weight:600}
+
+/* preview rows table compact */
+.preview-rows{width:100%;border-collapse:collapse;margin-top:10px}
+.preview-rows th,.preview-rows td{border:1px solid #eef3f6;padding:8px;font-size:13px}
+.preview-rows th{background:#f1f7fb;color:#083a66}
+
+@media (min-width:900px){
+	.container{max-width:1100px}
+}
+
+/* multi-select size and layout */
+#entitySelect{width:100%;margin:8px 0 12px 0;padding:6px}
